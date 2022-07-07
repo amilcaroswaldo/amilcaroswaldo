@@ -9,6 +9,6 @@ module.exports = function(dir, ext, callback){
        /* files.forEach(element => {
             ext === path.extname(element) ? console.log(element) : null;
         });*/
-        callback(null, files);
+        callback(null, files); //send data to callback
     })
 }
